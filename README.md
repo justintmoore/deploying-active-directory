@@ -68,8 +68,30 @@
 </p>
 
 <p align="center">
-    <img src="" height="60%" width="60%" alt="placeholder"/>
+  If we go to our Domain Controller VM that I will call "DC", open up Server Manager, you can see a flag in the right hand corner. Click it, and select the link, Promote this server to a domain controller.
 </p>
-<br> 
 
+<p align="center">
+    <img src="https://i.imgur.com/DFf0FOP.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
 
+<p align="center">
+  In Deployment Configuration, select Add a new forest. In Domain Controller Options create the domain name MYDOMAIN.com. Select Next until you get to installation, and install! (This could take a while!) After AD installs, it will automatically restart.
+</p>
+<br>
+
+<p align="center">
+  After it restarts we will log back in to our DC VM. There is a difference in the way we log on. Since it's been turned into a DC with a domain, we must specify the domain. Username should  <domainname>\<username>, and the password will be as it always was.
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/OzPNLpi.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+  Now that we are logged back on, next on the agenda is to creat an Organizational Unit (OU) called "_EMPLOYEES" within Active Directory Users and Computers (ADUC)....
+</p>
+
+1202deployad
