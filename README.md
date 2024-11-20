@@ -91,7 +91,44 @@
 <br>
 
 <p align="center">
-  Now that we are logged back on, next on the agenda is to creat an Organizational Unit (OU) called "_EMPLOYEES" within Active Directory Users and Computers (ADUC)....
+  Now that we are logged back on, next on the agenda is to create a Domain Administrator within the domain on our Domain Controller "dc-1". Go to your taksk search bar at the bottom and type "active directory". There should be a application called Active Directory Users and Computers, click that.
 </p>
 
-1202deployad
+<p align="center">
+    <img src="https://i.imgur.com/uyPqwXO.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+  Maximize the screen. on the left side of the screen you will see a direcory names "mydomain.com". Right click "mydomain.com", expand "new", and select Organizational Unit. Make sure for these next steps you don't mess them up.
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/wdisepq.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+  After Selecting Organizational Unit, in the box provided type "_EMPLOYEES", don't forget the underscore. After that, we will create another one called "_ADMINS". Later on these folders will come in handy for creating users via Powerscript.
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/ufYVmrb.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+  Under mydomains.com right click the _ADMIN, go to new, and click User. We will create the Admin user as Jane Doe. Uncheck all boxes, leaving "password never expires" before submitting, and then press next then finish
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/xnsnBUX.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<p align="center">
+    <img src="https://i.imgur.com/HTfCWPS.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+  
+</p>
