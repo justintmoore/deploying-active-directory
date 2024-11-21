@@ -9,6 +9,7 @@
 ## Environments Used
 - Windows 10 <br>
 - Windows Server 2022
+- Active Directory  
   
 
 ## Program Walkthrough
