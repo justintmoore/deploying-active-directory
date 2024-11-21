@@ -109,7 +109,7 @@
 <br>
 
 <p align="center">
-  After Selecting Organizational Unit, in the box provided type "_EMPLOYEES", don't forget the underscore. After that, we will create another one called "_ADMINS". Later on these folders will come in handy for creating users via Powerscript.
+  After Selecting Organizational Unit, in the box provided type "_EMPLOYEES", don't forget the underscore. After that, we will create another one called "_ADMINS". We are creating these folders for accessibility, and ease of use later on in this lab.
 </p>
 
 <p align="center">
@@ -118,7 +118,7 @@
 <br>
 
 <p align="center">
-  Under mydomains.com right click the _ADMIN, go to new, and click User. We will create the Admin user as Jane Doe. Uncheck all boxes, leaving "password never expires" before submitting, and then press next then finish
+  Under mydomains.com right click the _ADMIN, go to new, and click User. We will create the Admin user as Jane Doe. Uncheck all boxes, leaving "password never expires" before submitting, and then press next then finish. Just because we added this user to a folder named _ADMIN doesn't make it an Admin account. We must add this user to the Domain Admins Security group.
 </p>
 
 <p align="center">
@@ -130,5 +130,24 @@
 <br>
 
 <p align="center">
+  To add our Jane Doe user to our Domain Admins Security group we can right click Jane Doe, and select properties. Once inside of properties, we will choose the "Member of" domain -> Add.. ->
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/x5gLRjs.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+  Inside of Select Groups, we will enter the object name: "Domain Admins", and click Check names. Now that we've completed that, apply changes and click ok. We will now log out/ close connection to dc-1 VM, and log back in as "mydomain.com\jane_admin".
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/uCEbZQ4.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
   
 </p>
+
