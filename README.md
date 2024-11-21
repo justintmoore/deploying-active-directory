@@ -275,7 +275,7 @@
 </p>
 <br>
 
-## Lesson Learned
+## Lessons Learned
 <p align="center">
     I learned a ton of great knoowledge here. Information Technology is a broad field, and for those of us interested in cybersecurity must understand that this is just a subfield of Information Technology. The basics of IT, lay the foundation for our career. How can we secure something, we don't understand, even at a theory level. In this lab I learned about Windows Server 22 and how how to install Active Directory. I got hands on experience on promoting a regular sever into a Root Server, creating a forest. I learned that a forest acts as a conrainer for sublevel domains, and how the Root Server acts as Top Level domain within that forest. I also learned about Organization Unites, and see them as folders within our domain that holds users, devices, and other rescources. I was able to get some practical exerience on AD onfigurations, and learned that PowerShell is a powerful tool that I need to learn!
 </p>
