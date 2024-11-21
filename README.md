@@ -221,12 +221,56 @@
 <p align="center">
     Now that we have that open, Click this link, copy the raw file, and paste into PowerShell ISE. 
 </p>
+<br>
+<p align="center">
+     <b><a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">PowerShell: Name-Generator</a>.<b/>
+    <br>
+    Disclaimer: I take no credit for the script written.
+</p>
+<br>
+         
+<p align="center">
+    Once we past the script into PowerShell, click the Run button on the top.
+</p>
 
+<p align="center">
+    <img src="https://i.imgur.com/Cw0ZGgt.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
 
+<p align="center">
+    Once we past the script into PowerShell, click the Run button on the top. These names will just be a combination of random letters, but they will consist of a first name, and a last name. In the script you will notice that all passwords are "Password1". After Users are created, take note of any username, and we will attempt to login using that user.
+</p>
 
+<p align="center">
+    <img src="https://i.imgur.com/5elLyUj.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
 
-https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
+<p align="center">
+    To test out one of these users, we will go back to Active Directory Users and Computers on our dc-1 VM. Under mydomain.com, click _EMPLOYEES. If you don't see any users, right click mydomain.com and select refresh. Choose a user at random, under general you will see their Display Name, which will be there username. 
+</p>
 
+<p align="center">
+    <img src="https://i.imgur.com/GxSpcve.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
 
+<p align="center">
+    We will log out of our client-1 VM, and login as our user. Remember because we are part of the domain "mydomain.com", we must express that in our username.
+</p>
 
+<p align="center">
+    <img src="https://i.imgur.com/MU3Hu2a.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+    We have successfully logged in as another user. That ends this portion of the lab. 
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/p28Obeu.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
 
