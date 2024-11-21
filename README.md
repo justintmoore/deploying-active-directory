@@ -197,17 +197,35 @@
 <br>
 
 <p align="center">
-    You can see general
+   We have 2 more things to do before we end this lab. First we are going to configure RDP for non admin users on client-1 VM. Second, we will creat a bunch of additional users and attempt to log into client-1 with one of the users. Currently we should sign out of our current labuser on client-1 and sign in as jane_admin.
+</p>
+<br>
+<p align="center">
+ Once logged on we will...Right click Windows Icon -> System -> Remote Desktop -> User Accounts: Select users that can remotely access this pc -> Add -> Enter Object name "Domain Users", click Check Names -> Click Ok. In this instance, Domain Users represents everyone on the domain, so everyone on the domain will have access to Remote Desktop.
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/GKYXSVK.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+ Lastly, utilizing PowerShell ISE, we will be write a script that will create additional users on AD. To start we will log into dc-1, and open up PoerShell ISE as a administrator. 
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/dzZbgYs.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+    Now that we have that open, Click this link, copy the raw file, and paste into PowerShell ISE. 
 </p>
 
 
 
 
-
-
-
-
-
+https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
 
 
 
