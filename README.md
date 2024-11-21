@@ -148,6 +148,67 @@
 <br>
 
 <p align="center">
-  
+  Again when we loging our username will now be: <domainname>\<username>, in this case it will be mydomain\jane_admin. The password is whatever you set it to prior. Once logged in we can open up powershell and you'll see the username jane_admin in the prompt. You can also run the command "whoami" to see which user you are currently logged in as.
 </p>
+
+<p align="center">
+    <img src="https://i.imgur.com/C43UwJt.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+    Now that we are logged on, we are going to join client-1 VM, to the domain. Lets start by logging into our client-1 VM. In the task search bar below type "about" and open up about "About your PC". On the right side, you will see a link "Rename this PC (Advanced)".
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/bUSHN3V.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+    Under the "Computer Name" tab -> click "Change" -> Go to Member -> Switch from Workgroup to Domain -> Enter your Domain Name. In our case it is mydomain.com. After click ok. 
+</p>
+<br>
+<p>
+    The only way this works is by having our Domain Controller configured as our DNS server for our client-1 VM.mydomain
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/J09kq6c.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+    You will now be prompted to enter your admin credentials. You should receive a popup welcoming you to the domain! Client-1 VM will restart automatically. After it restarts you will have to Remote back in using RDP.
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/WtvBrvm.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+    After you log back on, go to active directory users and computers -> click mydomain.com -> Computers -> You should see client-1. If you right click and select properties we can see a number of things. One of these if LAPS or Local Administration Password Solution. This allows you receive a unique randomized password, that you can use to login locally as the administrator.
+</p>
+
+<p align="center">
+    <img src="https://i.imgur.com/oKz9GpR.png" height="60%" width="60%" alt="placeholder"/>
+</p>
+<br>
+
+<p align="center">
+    You can see general
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
 
