@@ -223,7 +223,7 @@
 </p>
 <br>
 <p align="center">
-     <b><a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">PowerShell: Name-Generator</a>.<b/>
+     <b><a href="https://github.com/justintmoore/deploying-active-directory/blob/main/create-names-ps1">PowerShell: Name-Generator</a>.<b/>
     <br>
     Disclaimer: I take no credit for the script written.
 </p>
